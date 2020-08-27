@@ -4,4 +4,16 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Aboutme">About me</string>
     <string name="Contact">Contact</string>
+    <string name="text_bar">Hello World</string>
+
+    <string name="aboutMyProfile">Name : Nutthakul Audomjirachot
+        \n\nNicname : Lew
+        \n\nAge : 20
+        \n\nbirthday : 10 may 2000
+        \n\nUniversity : Rajamangala University Of Technology Isan
+        \n\nMajor : Computer Science\n\n</string>
+
+    <string name="inputName">Input your name</string>
+    <string name="inputEmail">Input your e-mail</string>
+
 </resources>
