@@ -3,8 +3,10 @@
 
     <item
         android:id="@+id/aboutmeFragment"
-        android:title="@string/Aboutme" />
+        android:title="@string/Aboutme"
+        android:icon="@drawable/about"/>
     <item
         android:id="@+id/contactFragment"
-        android:title="@string/Contact" />
+        android:title="@string/Contact"
+        android:icon="@drawable/contact"/>/>
 </menu>
