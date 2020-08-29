@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -11,31 +12,30 @@
         android:layout_height="match_parent"
         tools:context=".AboutmeFragment">
 
-        <!-- TODO: Update blank fragment layout -->
-        <LinearLayout
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#DDD3C3"
-            android:orientation="vertical">
+            android:layout_height="615dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/welcome"
+            android:textAlignment="center"
+            android:textColor="#CC9D40"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/aboutMe"
-                android:layout_width="match_parent"
-                android:layout_height="78dp"
-                android:text="@string/Aboutme"
-                android:textAlignment="center"
-                android:textColor="#790604"
-                android:textSize="30sp" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="609dp"
+            android:contentDescription="@string/picME"
+            app:srcCompat="@drawable/picme" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="743dp"
-                android:text="@string/aboutMyProfile"
-                android:textAlignment="center"
-                android:textColor="#790604" />
-
-        </LinearLayout>
 
     </FrameLayout>
 </layout>

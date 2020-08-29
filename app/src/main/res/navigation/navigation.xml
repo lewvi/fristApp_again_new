@@ -10,17 +10,38 @@
         android:name="com.natthakun.fristapp_again.AboutmeFragment"
         android:label="fragment_aboutme"
         tools:layout="@layout/fragment_aboutme" >
+
         <action
             android:id="@+id/action_aboutmeFragment_to_contactFragment"
             app:destination="@id/contactFragment" />
+
+        <action
+            android:id="@+id/action_aboutmeFragment_to_profileFragment3"
+            app:destination="@id/profileFragment" />
+
     </fragment>
+
     <fragment
         android:id="@+id/contactFragment"
         android:name="com.natthakun.fristapp_again.ContactFragment"
         android:label="fragment_contact"
         tools:layout="@layout/fragment_contact" >
+
         <action
             android:id="@+id/action_contactFragment_to_aboutmeFragment"
             app:destination="@id/aboutmeFragment" />
+
     </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.natthakun.fristapp_again.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+
+        <action
+            android:id="@+id/action_profileFragment3_to_aboutmeFragment2"
+            app:destination="@id/aboutmeFragment" />
+    </fragment>
+
 </navigation>
